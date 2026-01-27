@@ -1,0 +1,44 @@
+{
+  "steps": [
+    {
+      "stepId": 1,
+      "stepName": "Daisy",
+      "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step1.png"
+    },
+    {
+      "stepId": 2,
+      "stepName": "White Cross",
+      "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step2.png"
+    },
+    {
+      "stepId": 3,
+      "stepName": "First Layer",
+      "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step3.png"
+    },
+    {
+      "stepId": 4,
+      "stepName": "Second Layer",
+      "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step4.png"
+    },
+    {
+      "stepId": 5,
+      "stepName": "Yellow Cross",
+      "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step5.png"
+    },
+    {
+      "stepId": 6,
+      "stepName": "Edges Oriention",
+      "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step6.png"
+    },
+    {
+      "stepId": 7,
+      "stepName": "Corners Oriention",
+      "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step7.png"
+    },
+    {
+      "stepId": 8,
+      "stepName": "Corners Permutation",
+      "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step8.png"
+    }
+  ]
+}
