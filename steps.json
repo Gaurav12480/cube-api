@@ -9,17 +9,22 @@
         {
           "caseId": 1,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step1/case1.png"
         },
         {
           "caseId": 2,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step1/case2.png"
         },
         {
           "caseId": 3,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step1/case3.png"
+        },
+        {
+          "caseId": 4,
+          "caseDescription": "",
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step1/case4.png"
         }
       ]
     },
@@ -32,17 +37,12 @@
         {
           "caseId": 1,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step2/case1.png"
         },
         {
           "caseId": 2,
           "caseDescription": "",
-          "caseImage": ""
-        },
-        {
-          "caseId": 3,
-          "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step2/case2.png"
         }
       ]
     },
@@ -55,17 +55,27 @@
         {
           "caseId": 1,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case1.png"
         },
         {
           "caseId": 2,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case2.png"
         },
         {
           "caseId": 3,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case3.png"
+        },
+        {
+          "caseId": 4,
+          "caseDescription": "",
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case4.png"
+        },
+        {
+          "caseId": 5,
+          "caseDescription": "",
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case5.png"
         }
       ]
     },
@@ -78,17 +88,17 @@
         {
           "caseId": 1,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step4/case1.png"
         },
         {
           "caseId": 2,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step4/case2.png"
         },
         {
           "caseId": 3,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step4/case3.png"
         }
       ]
     },
@@ -101,17 +111,22 @@
         {
           "caseId": 1,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step5/case1.png"
         },
         {
           "caseId": 2,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step5/case2.png"
         },
         {
           "caseId": 3,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step5/case3.png"
+        },
+        {
+          "caseId": 4,
+          "caseDescription": "",
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step5/case4.png"
         }
       ]
     },
@@ -124,17 +139,12 @@
         {
           "caseId": 1,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step6/case1.png"
         },
         {
           "caseId": 2,
           "caseDescription": "",
-          "caseImage": ""
-        },
-        {
-          "caseId": 3,
-          "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step6/case2.png"
         }
       ]
     },
@@ -147,17 +157,12 @@
         {
           "caseId": 1,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step7/case1.png"
         },
         {
           "caseId": 2,
           "caseDescription": "",
-          "caseImage": ""
-        },
-        {
-          "caseId": 3,
-          "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step7/case2.png"
         }
       ]
     },
@@ -170,17 +175,12 @@
         {
           "caseId": 1,
           "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step8/case1.png"
         },
         {
           "caseId": 2,
           "caseDescription": "",
-          "caseImage": ""
-        },
-        {
-          "caseId": 3,
-          "caseDescription": "",
-          "caseImage": ""
+          "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step8/case2.png"
         }
       ]
     }
