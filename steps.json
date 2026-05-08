@@ -4,26 +4,26 @@
       "stepId": 1,
       "stepName": "Daisy",
       "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step1.png",
-      "stepDescription": "",
+      "stepDescription": "We start by forming a Daisy — a plus sign made of white edge pieces around the yellow center.",
       "cases": [
         {
           "caseId": 1,
-          "caseDescription": "",
+          "caseDescription": "If you see a white edge piece in the bottom layer, clear any white edge pieces from the top using U moves, then bring it to the top with F2.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step1/case1.png"
         },
         {
           "caseId": 2,
-          "caseDescription": "",
+          "caseDescription": "If a white edge is on the side and its top spot is already occupied by another white edge, rotate the upper layer to clear that spot, then insert the piece into the Daisy (U' R in this example). Otherwise, simply move it into the Daisy with R.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step1/case2.png"
         },
         {
           "caseId": 3,
-          "caseDescription": "",
+          "caseDescription": "If a white edge is twisted in the top or bottom layer, move it to the side with F or F' — it will turn into Case 2.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step1/case3.png"
         },
         {
           "caseId": 4,
-          "caseDescription": "",
+          "caseDescription": "Once you've moved all the white edge pieces to the top, you'll have a Daisy like this. You can ignore the adjacent colors for now.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step1/case4.png"
         }
       ]
@@ -32,16 +32,16 @@
       "stepId": 2,
       "stepName": "White Cross",
       "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step2.png",
-      "stepDescription": "",
+      "stepDescription": "The white cross is formed by placing the white edge pieces around the white center, with each edge also matching the color of its side center.",
       "cases": [
         {
           "caseId": 1,
-          "caseDescription": "",
+          "caseDescription": "Rotate the U layer until a white edge piece’s side color matches its correct center, then face that edge and move it down with F2. Repeat this for all 4 white edges to form a white cross.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step2/case1.png"
         },
         {
           "caseId": 2,
-          "caseDescription": "",
+          "caseDescription": "Once you've moved all the white edge pieces, you’ll have a white cross like this, with the side colors matching their correct center pieces.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step2/case2.png"
         }
       ]
@@ -50,31 +50,31 @@
       "stepId": 3,
       "stepName": "First Layer",
       "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step3.png",
-      "stepDescription": "",
+      "stepDescription": "Place the white corner pieces in their correct positions, matching all the side colors with their center pieces, forming the first layer.",
       "cases": [
         {
           "caseId": 1,
-          "caseDescription": "",
+          "caseDescription": "Find a white corner piece on the top layer. If its white side is facing right, line it up with its correct position by matching its other two colors with their center pieces, placing the corner between those matching centers, then do this algorithm:\nR U R' U' (Righty Algorithm)\n(Don’t see this case? Check the other cases below.)",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case1.png"
         },
         {
           "caseId": 2,
-          "caseDescription": "",
+          "caseDescription": "Find a white corner piece on the top layer. If its white side is facing left, line it up with its correct position by matching its other two colors with their center pieces, placing the corner between those matching centers, then do this algorithm:\nL' U' L U (Lefty Algorithm)\n(Don’t see this case? Check the other cases below.)",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case2.png"
         },
         {
           "caseId": 3,
-          "caseDescription": "",
+          "caseDescription": "Find a white corner piece on the top layer. If its white side is facing up, line it up with its correct position by matching its other two colors with their center pieces, placing the corner between those matching centers, then repeat the Righty or Lefty Algorithm 3 times:\n(R U R' U')x3\nOR\n(L' U' L U)x3",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case3.png"
         },
         {
           "caseId": 4,
-          "caseDescription": "",
+          "caseDescription": "If a white corner piece is stuck in the bottom layer in the wrong position, bring it to the top layer by doing the Righty or Lefty Algorithm once. It will turn into one of the other cases, which you can then solve normally (like in this image).",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case4.png"
         },
         {
           "caseId": 5,
-          "caseDescription": "",
+          "caseDescription": "Once all the white corner pieces are correctly placed and oriented one by one, the first layer is complete, with a solid white face and matching side colors.\n\nNote: It’s important to learn and practice the Righty and Lefty Algorithms by heart, as they are used repeatedly in the later steps and will make solving much faster and easier.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step3/case5.png"
         }
       ]
@@ -83,21 +83,21 @@
       "stepId": 4,
       "stepName": "Second Layer",
       "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step4.png",
-      "stepDescription": "",
+      "stepDescription": "Place the middle layer edge pieces in their correct positions, matching their colors with the center pieces, forming the second layer.",
       "cases": [
         {
           "caseId": 1,
-          "caseDescription": "",
+          "caseDescription": "Find a non-white edge piece in the top layer. Match its side color with the corresponding center piece. Now keep that edge in front of you and check where it needs to go. If it needs to go to the left, do this:\nU' L' U' L U\nNotice that a corner pops out, and when you insert the corner, it also automatically solves the edge.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step4/case1.png"
         },
         {
           "caseId": 2,
-          "caseDescription": "",
+          "caseDescription": "Find a non-white edge piece in the top layer. Match its side color with the corresponding center piece. Now keep that edge in front of you and check where it needs to go. If it needs to go to the right, do this:\nU R U R' U'\nNotice that a corner pops out, and when you insert the corner, it also automatically solves the edge.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step4/case2.png"
         },
         {
           "caseId": 3,
-          "caseDescription": "",
+          "caseDescription": "After repeating this for all 4 edge pieces, the first two layers of the cube will be solved.\n\nNote: If it’s still not solved and some pieces are in the wrong positions, you can treat a yellow layer edge as a correct piece and insert it using either case. When you place it there, the wrongly placed piece will pop out to the top layer, where it can then be solved normally.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step4/case3.png"
         }
       ]
@@ -106,44 +106,44 @@
       "stepId": 5,
       "stepName": "Yellow Cross",
       "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step5.png",
-      "stepDescription": "",
+      "stepDescription": "Form a yellow cross on the top face by correctly positioning the yellow edge pieces around the yellow center, without worrying about the side colors for now.",
       "cases": [
         {
           "caseId": 1,
-          "caseDescription": "",
+          "caseDescription": "This is the dot case. To solve it, perform this algorithm once to move to the next case:\nF R U R' U' F'\nGood news: this is the only algorithm used in this step, so it will be repeated in all cases.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step5/case1.png"
         },
         {
           "caseId": 2,
-          "caseDescription": "",
+          "caseDescription": "This is the L case. Hold the cube so that the two yellow pieces on the top face form an L shape, with one yellow piece pointing toward you and the other pointing to the right. Then perform this algorithm:\nF R U R' U' F'\nThis will transform it into the next case.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step5/case2.png"
         },
         {
           "caseId": 3,
-          "caseDescription": "",
+          "caseDescription": "This is the line case. Hold the cube so that the two yellow pieces form a straight line on the top face, with one yellow piece on the right and the other on the left. Then perform this algorithm:\nF R U R' U' F'\nThis will complete the yellow cross.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step5/case3.png"
         },
         {
           "caseId": 4,
-          "caseDescription": "",
+          "caseDescription": "This is the solved case. If your cube already has a yellow cross on the top face, you’re lucky and can skip this step this time.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step5/case4.png"
         }
       ]
     },
     {
       "stepId": 6,
-      "stepName": "Edges Orientation",
+      "stepName": "Edges Permutation",
       "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step6.png",
-      "stepDescription": "",
+      "stepDescription": "Match the side colors of the yellow edge pieces with their center pieces, placing the top layer edges in their correct positions.",
       "cases": [
         {
           "caseId": 1,
-          "caseDescription": "",
+          "caseDescription": "Perform U moves and after each move check if at least two edge pieces match their center colors. If the two matching edges are adjacent, hold the cube so that one solved edge is at the back and one is on the right, then perform this algorithm:\nR U R' U R U2 R' U\nSometimes two edges match but are opposite to each other. In that case, hold the cube so that one is on the right and the other is on the left, then perform the same algorithm once. It will convert into the adjacent case, which you can then solve using the method above",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step6/case1.png"
         },
         {
           "caseId": 2,
-          "caseDescription": "",
+          "caseDescription": "All four edge pieces now match their center colors, completing this step.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step6/case2.png"
         }
       ]
@@ -152,16 +152,16 @@
       "stepId": 7,
       "stepName": "Corners Orientation",
       "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step7.png",
-      "stepDescription": "",
+      "stepDescription": "Place the yellow corner pieces in their correct positions according to their side colors, so each edge lines up with its matching center piece.",
       "cases": [
         {
           "caseId": 1,
-          "caseDescription": "",
+          "caseDescription": "Check if any corner piece is in its correct position after matching the edges. The corner may be twisted, but it should belong to that spot by matching its colors with the surrounding center pieces. There will either be 1 correctly placed corner or all 4.\nIf only one corner is correct, hold the cube so that this corner is at the front-left-top, then perform this algorithm:\nR U' L' U R' U' L U\nIf all 4 corners are already in their correct positions, you can skip this step.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step7/case1.png"
         },
         {
           "caseId": 2,
-          "caseDescription": "",
+          "caseDescription": "All four corner pieces are now in their correct positions (they may still be twisted), so this step is complete.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step7/case2.png"
         }
       ]
@@ -170,16 +170,16 @@
       "stepId": 8,
       "stepName": "Corners Permutation",
       "imageUrl": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/steps/step8.png",
-      "stepDescription": "",
+      "stepDescription": "Twist the yellow corner pieces until each one is correctly oriented, completing the cube.",
       "cases": [
         {
           "caseId": 1,
-          "caseDescription": "",
+          "caseDescription": "Hold the cube so that a yellow corner piece is in the front-right-top position. If the yellow sticker is not on top, perform this algorithm:\nR' D' R D\nRotate only the U layer to bring the next unsolved corner into the same position and repeat the algorithm. Continue until all yellow corners are correctly oriented, completing the cube.\n\nWarning: Perform the algorithm completely every time. A common mistake is stopping early after seeing the yellow sticker on top and forgetting the final D move, which can mess up the cube. Do not rush this step and execute each move carefully.",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step8/case1.png"
         },
         {
           "caseId": 2,
-          "caseDescription": "",
+          "caseDescription": "Congratulations! The cube is solved 🎉",
           "caseImage": "https://raw.githubusercontent.com/Gaurav12480/cube-api/main/images/step8/case2.png"
         }
       ]
